@@ -50,13 +50,13 @@
 // })
 // }
 
-describe("vowelIndex", () => {
-    it("Function will take in the strings learn, academy, challenges and return the index location of the first vowel in each string", () => {
-      expect(vowelIndex("learn")).toEqual(1)
-      expect(vowelIndex("academy")).toEqual(0)
-      expect(vowelIndex("challenges")).toEqual(2)
-    })
-  })
+// describe("vowelIndex", () => {
+//     it("Function will take in the strings learn, academy, challenges and return the index location of the first vowel in each string", () => {
+//       expect(vowelIndex("learn")).toEqual(1)
+//       expect(vowelIndex("academy")).toEqual(0)
+//       expect(vowelIndex("challenges")).toEqual(2)
+//     })
+//   })
   
   // // const vowelTester1 = "learn"
   // // // Expected output: 1
@@ -71,9 +71,9 @@ describe("vowelIndex", () => {
   // // Give the function the parameter string because of the data type being used
   // // 
   
-  const vowelIndex = (string) => {
-    let vowels = ['a', 'e', 'i', 'o', 'u']
-    for(i = 0; i < string.length; i++){
-        if(vowels.includes(string[i]))
-        return i
-    }}
+  // const vowelIndex = (string) => {
+  //   let vowels = ['a', 'e', 'i', 'o', 'u']
+  //   for(i = 0; i < string.length; i++){
+  //       if(vowels.includes(string[i]))
+  //       return i
+  //   }}
