@@ -30,34 +30,58 @@ Researched answer: the method .map() returns an array of informatin from the ori
 
 answer via: https://www.google.com/search?q=What+is+the+difference+between+map+and+filter%3F&oq=What+is+the+difference+between+map+and+filter%3F&aqs=chrome..69i57j0i512j0i20i263i512j0i512l2j0i22i30l5.644j0j15&sourceid=chrome&ie=UTF-8
 
-1. What is iteration?
+4. What is iteration?
 
-Your answer:
+Your answer: iteration is an action being performed continuoulsy until the goal is reached. For example in programming there are methods that can be used to accomplish iteration. The .map() method will iterate over an array until all index values have been accounted for. 
 
-Researched answer:
+Researched answer: a sequence of code that is repeated until the desired result is completed.
 
-1. What is the difference between a function and a method?
+answer via: https://www.techtarget.com/searchsoftwarequality/definition/iterative#:~:text=In%20programming%20specifically%2C%20iterative%20refers,called%20circular%20or%20evolutionary%20development.
 
-Your answer:
+5. What is the difference between a function and a method?
 
-Researched answer:
+Your answer: A function is a developer made variable that contains parameters that when used properly exectue some form of logic. A method can either be built in like .filter() or made for specific instances. Methods are what can used to perform actions in classes. 
+
+Researched answer: Functions are instructions that perform a specfic task. Methods are instruciton that are to be performed when using objects. 
+
+answer via: https://www.educative.io/answers/what-is-the-difference-between-a-method-and-a-function
+
+
 
 6. STRETCH: What is hoisting in JavaScript?
 
-Your answer:
+Your answer: Hoisting is when functions are used to extract elements from classes for tasks. 
 
-Researched answer:
+Researched answer: the process of moving functions, variables, and classes to the top of the scope. This is before the execution of the code.
+
+JavaScript Hoisting refers to the process whereby the interpreter appears to move the declaration of functions, variables or classes to the top of their scope, prior to execution of the code.
+
+answers via: https://developer.mozilla.org/en-US/docs/Glossary/Hoisting
 
 ## Looking Ahead: Terms for Next Week
 
 Research and define the following terms to the best of your ability.
 
-1. Component:
+1. Component: bits of reusable. They are for the same purpose as JavaScript functions. They work in isolation and return html. They come in two different types class and function components.
 
-2. Spread operator:
+answer via: https://www.w3schools.com/react/react_components.asp#:~:text=Components%20are%20independent%20and%20reusable,will%20concentrate%20on%20Function%20components.
 
-3. React state:
+2. Spread operator: Allows for arrays and strings to be expanded. It can be used to quickly copy an existing array or object into another.
 
-4. React props:
+answer via: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
 
-5. DOM events:
+
+
+3. React state: A built-in React object that is used to contain data or information about the component. It can be changed over time. When it changes the component re-renders.
+
+answer via: https://www.simplilearn.com/tutorials/reactjs-tutorial/reactjs-state#:~:text=DevelopmentExplore%20Program-,What%20Is%20'State'%20in%20ReactJS%3F,%2C%20the%20component%20re%2Drenders.
+
+
+4. React props: props is a keyword which stands for properties and is used to pass data from one component to another. It has a uni-directional flow.
+
+answer via: https://itnext.io/what-is-props-and-how-to-use-it-in-react-da307f500da0
+
+
+5. DOM events: Signal that something has occurred or is currenlty occurring. Can be triggered by user input.
+
+answer via: https://en.wikipedia.org/wiki/DOM_events
