@@ -32,22 +32,22 @@
 // Use the 'it' keyword to describe inside of a string what the function will do.
 // Create 3 different expect statements for the outcomes of the objects below.
 
-// describe("divBYThree", () => {
-//     it("function will return string interpelation the number is divisible by three, or the number is not divisible by three.", () => {
-//       expect(divBYThree({ number: 15 })).toBe('15 is divisible by three.')
-//       expect(divBYThree({ number: 0 })).toBe('0 is divisible by three.')
-//       expect(divBYThree({ number: -7 })).toBe('-7 is not divisible by three.')
-//     })
-//   })
+describe("divBYThree", () => {
+    it("function will return string interpelation the number is divisible by three, or the number is not divisible by three.", () => {
+      expect(divBYThree({ number: 15 })).toBe('15 is divisible by three.')
+      expect(divBYThree({ number: 0 })).toBe('0 is divisible by three.')
+      expect(divBYThree({ number: -7 })).toBe('-7 is not divisible by three.')
+    })
+  })
 
-// const object1 = { number: 15 }
-// // Expected output: "15 is divisible by three"
-// const object2 = { number: 0 }
-// // Expected output: "0 is divisible by three"
-// const object3 = { number: -7 }
-// // Expected output: "-7 is not divisible by three"
+const object1 = { number: 15 }
+// Expected output: "15 is divisible by three"
+const object2 = { number: 0 }
+// Expected output: "0 is divisible by three"
+const object3 = { number: -7 }
+// Expected output: "-7 is not divisible by three"
 
-// // b) Create the function that makes the test pass.
+// b) Create the function that makes the test pass.
 
 // psuedo:
 // Create a the funciton divByThree that we established in the test.
@@ -58,13 +58,13 @@
 // Set both the if and else statements to return a string interpolated message ' object.number is divisible by three, or object.numer is not divisible by three.
 // DO NOT include a console.log because it is being tested!!!
 
-// const divBYThree = (object) => {
-//     if(object.number % 3 === 0){
-//       return `${object.number} is divisible by three.`
-//     }else{
-//         return `${object.number} is not divisible by three.`
-//     }
-//   }
+const divBYThree = (object) => {
+    if(object.number % 3 === 0){
+      return `${object.number} is divisible by three.`
+    }else{
+        return `${object.number} is not divisible by three.`
+    }
+  }
 
 //Output:
 //   PASS  ./code-challenges.test.js
@@ -83,17 +83,17 @@
 // Change 'it' to what the function will do.
 // Create two expect statements for both of the arrays given to be arugments in the function.
 
-// describe("allCap", () => {
-//   it("function will take in the given arrays as arguments and return new arrays with the strings in all capital", () => {
-//     expect(allCap(["streetlamp", "potato", "teeth", "conclusion", "nephew"])).toEqual(["STREETLAMP", "POTATO", "TEETH", "CONCLUSION", "NEPHEW"])
-//     expect(allCap(["temperature", "database", "chopsticks", "mango"])).toEqual(["TEMPERATURE", "DATABASE", "CHOPSTICKS", "MANGO"])
-//   })
-// })
+describe("allCap", () => {
+  it("function will take in the given arrays as arguments and return new arrays with the strings in all capital", () => {
+    expect(allCap(["streetlamp", "potato", "teeth", "conclusion", "nephew"])).toEqual(["STREETLAMP", "POTATO", "TEETH", "CONCLUSION", "NEPHEW"])
+    expect(allCap(["temperature", "database", "chopsticks", "mango"])).toEqual(["TEMPERATURE", "DATABASE", "CHOPSTICKS", "MANGO"])
+  })
+})
 
-// // const randomNouns1 = ["streetlamp", "potato", "teeth", "conclusion", "nephew"]
-// // // Expected output: ["Streetlamp", "Potato", "Teeth", "Conclusion", "Nephew"]
-// // const randomNouns2 = ["temperature", "database", "chopsticks", "mango"]
-// // // Expected output: ["Temperature", "Database", "Chopsticks", "Mango"]
+// const randomNouns1 = ["streetlamp", "potato", "teeth", "conclusion", "nephew"]
+// // Expected output: ["Streetlamp", "Potato", "Teeth", "Conclusion", "Nephew"]
+// const randomNouns2 = ["temperature", "database", "chopsticks", "mango"]
+// // Expected output: ["Temperature", "Database", "Chopsticks", "Mango"]
 // // b) Create the function that makes the test pass.
 
 // // Psuedo:
@@ -105,11 +105,11 @@
 //The return will have the toUpperCase method to avoid using another  line of code.
 // 
 
-// const allCap = (array) => {
-// return array.map((value) => {
-//   return value.toUpperCase()
-// })
-// }
+const allCap = (array) => {
+return array.map((value) => {
+  return value.toUpperCase()
+})
+}
 
 // Output:
 //  PASS  ./jest.test.js
@@ -128,20 +128,20 @@
 // Change 'it' to what we want our function to do.
 // Create three expect statements for the strings to be used as arugments in the function.
 
-// describe("vowelIndex", () => {
-//   it("Function will take in the strings learn, academy, challenges and return the index location of the first vowel in each string", () => {
-//     expect(vowelIndex("learn")).toEqual(1)
-//     expect(vowelIndex("academy")).toEqual(0)
-//     expect(vowelIndex("challenges")).toEqual(2)
-//   })
-// })
+describe("vowelIndex", () => {
+  it("Function will take in the strings learn, academy, challenges and return the index location of the first vowel in each string", () => {
+    expect(vowelIndex("learn")).toEqual(1)
+    expect(vowelIndex("academy")).toEqual(0)
+    expect(vowelIndex("challenges")).toEqual(2)
+  })
+})
 
-//  const vowelTester1 = "learn"
-//  Expected output:
-//  Expected output: 0
-// const vowelTester2 = "academy"
-//  const vowelTester3 = "challenges"
-// Expected output: 2
+ const vowelTester1 = "learn"
+ Expected output:
+ Expected output: 0
+const vowelTester2 = "academy"
+ const vowelTester3 = "challenges"
+Expected output: 2
 
 // b) Create the function that makes the test pass.
 // Psuedo:
@@ -155,12 +155,12 @@
 // inside put the parameter string with sqaure brackets and i.
 //This will check the index of the string for the vowels and return i so the value can be read in the test.
 
-// const vowelIndex = (string) => {
-//   let vowels = ['a', 'e', 'i', 'o', 'u']
-//   for(i = 0; i < string.length; i++){
-//       if(vowels.includes(string[i]))
-//       return i
-//   }}
+const vowelIndex = (string) => {
+  let vowels = ['a', 'e', 'i', 'o', 'u']
+  for(i = 0; i < string.length; i++){
+      if(vowels.includes(string[i]))
+      return i
+  }}
 
 //   Output:
 //   PASS  ./jest.test.js
